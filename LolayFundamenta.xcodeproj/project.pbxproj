@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3480E5B43607FA5F4142BF69 /* libPods-LolayFundamenta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57ECADD87E9C7C10708B06E8 /* libPods-LolayFundamenta.a */; };
+		4733CFCF6D287BC10F0A8902 /* libPods-LolayFundamentaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1259AAAF5266EF60FE72DE53 /* libPods-LolayFundamentaTests.a */; };
+		4E6479812261BB8900F63485 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6479802261BB8900F63485 /* UIImage.swift */; };
+		4ECB5C862232260B008D76EA /* LolayFundamenta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECB5C7C2232260B008D76EA /* LolayFundamenta.framework */; };
+		4ECB5C8B2232260B008D76EA /* LolayFundamentaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB5C8A2232260B008D76EA /* LolayFundamentaTests.swift */; };
+		4ECB5C8D2232260B008D76EA /* LolayFundamenta.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECB5C7F2232260B008D76EA /* LolayFundamenta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ECB5C872232260B008D76EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ECB5C732232260B008D76EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ECB5C7B2232260B008D76EA;
+			remoteInfo = LolayFundamenta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1259AAAF5266EF60FE72DE53 /* libPods-LolayFundamentaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LolayFundamentaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37CA387130323814E5B86E48 /* Pods-LolayFundamentaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LolayFundamentaTests.debug.xcconfig"; path = "Target Support Files/Pods-LolayFundamentaTests/Pods-LolayFundamentaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D0D96A81EC795FF73F2B908 /* Pods-LolayFundamenta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LolayFundamenta.debug.xcconfig"; path = "Target Support Files/Pods-LolayFundamenta/Pods-LolayFundamenta.debug.xcconfig"; sourceTree = "<group>"; };
+		4E6479802261BB8900F63485 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		4ECB5C7C2232260B008D76EA /* LolayFundamenta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LolayFundamenta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECB5C7F2232260B008D76EA /* LolayFundamenta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LolayFundamenta.h; sourceTree = "<group>"; };
+		4ECB5C802232260B008D76EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ECB5C852232260B008D76EA /* LolayFundamentaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LolayFundamentaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECB5C8A2232260B008D76EA /* LolayFundamentaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LolayFundamentaTests.swift; sourceTree = "<group>"; };
+		4ECB5C8C2232260B008D76EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57ECADD87E9C7C10708B06E8 /* libPods-LolayFundamenta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LolayFundamenta.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE59B4A98D18D65B58CA1BA /* Pods-LolayFundamentaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LolayFundamentaTests.release.xcconfig"; path = "Target Support Files/Pods-LolayFundamentaTests/Pods-LolayFundamentaTests.release.xcconfig"; sourceTree = "<group>"; };
+		79AAB1A4238A511A534E0E57 /* Pods-LolayFundamenta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LolayFundamenta.release.xcconfig"; path = "Target Support Files/Pods-LolayFundamenta/Pods-LolayFundamenta.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ECB5C792232260B008D76EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3480E5B43607FA5F4142BF69 /* libPods-LolayFundamenta.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECB5C822232260B008D76EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECB5C862232260B008D76EA /* LolayFundamenta.framework in Frameworks */,
+				4733CFCF6D287BC10F0A8902 /* libPods-LolayFundamentaTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C5B734B4DCE7D6316F6229B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D0D96A81EC795FF73F2B908 /* Pods-LolayFundamenta.debug.xcconfig */,
+				79AAB1A4238A511A534E0E57 /* Pods-LolayFundamenta.release.xcconfig */,
+				37CA387130323814E5B86E48 /* Pods-LolayFundamentaTests.debug.xcconfig */,
+				5EE59B4A98D18D65B58CA1BA /* Pods-LolayFundamentaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4ECB5C722232260B008D76EA = {
+			isa = PBXGroup;
+			children = (
+				4ECB5C7E2232260B008D76EA /* LolayFundamenta */,
+				4ECB5C892232260B008D76EA /* LolayFundamentaTests */,
+				4ECB5C7D2232260B008D76EA /* Products */,
+				3C5B734B4DCE7D6316F6229B /* Pods */,
+				73771FA95633CA0294611107 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4ECB5C7D2232260B008D76EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ECB5C7C2232260B008D76EA /* LolayFundamenta.framework */,
+				4ECB5C852232260B008D76EA /* LolayFundamentaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ECB5C7E2232260B008D76EA /* LolayFundamenta */ = {
+			isa = PBXGroup;
+			children = (
+				4ECB5C7F2232260B008D76EA /* LolayFundamenta.h */,
+				4ECB5C802232260B008D76EA /* Info.plist */,
+				4E6479802261BB8900F63485 /* UIImage.swift */,
+			);
+			path = LolayFundamenta;
+			sourceTree = "<group>";
+		};
+		4ECB5C892232260B008D76EA /* LolayFundamentaTests */ = {
+			isa = PBXGroup;
+			children = (
+				4ECB5C8A2232260B008D76EA /* LolayFundamentaTests.swift */,
+				4ECB5C8C2232260B008D76EA /* Info.plist */,
+			);
+			path = LolayFundamentaTests;
+			sourceTree = "<group>";
+		};
+		73771FA95633CA0294611107 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57ECADD87E9C7C10708B06E8 /* libPods-LolayFundamenta.a */,
+				1259AAAF5266EF60FE72DE53 /* libPods-LolayFundamentaTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4ECB5C772232260B008D76EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECB5C8D2232260B008D76EA /* LolayFundamenta.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4ECB5C7B2232260B008D76EA /* LolayFundamenta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ECB5C902232260B008D76EA /* Build configuration list for PBXNativeTarget "LolayFundamenta" */;
+			buildPhases = (
+				121B74F5A8908C1711F7EC17 /* [CP] Check Pods Manifest.lock */,
+				4ECB5C772232260B008D76EA /* Headers */,
+				4ECB5C782232260B008D76EA /* Sources */,
+				4ECB5C792232260B008D76EA /* Frameworks */,
+				4ECB5C7A2232260B008D76EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LolayFundamenta;
+			productName = LolayFundamenta;
+			productReference = 4ECB5C7C2232260B008D76EA /* LolayFundamenta.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4ECB5C842232260B008D76EA /* LolayFundamentaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ECB5C932232260B008D76EA /* Build configuration list for PBXNativeTarget "LolayFundamentaTests" */;
+			buildPhases = (
+				C4FFD08237C78A1B9B5079A2 /* [CP] Check Pods Manifest.lock */,
+				4ECB5C812232260B008D76EA /* Sources */,
+				4ECB5C822232260B008D76EA /* Frameworks */,
+				4ECB5C832232260B008D76EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ECB5C882232260B008D76EA /* PBXTargetDependency */,
+			);
+			name = LolayFundamentaTests;
+			productName = LolayFundamentaTests;
+			productReference = 4ECB5C852232260B008D76EA /* LolayFundamentaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ECB5C732232260B008D76EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Lolay, Inc.";
+				TargetAttributes = {
+					4ECB5C7B2232260B008D76EA = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+					4ECB5C842232260B008D76EA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4ECB5C762232260B008D76EA /* Build configuration list for PBXProject "LolayFundamenta" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4ECB5C722232260B008D76EA;
+			productRefGroup = 4ECB5C7D2232260B008D76EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ECB5C7B2232260B008D76EA /* LolayFundamenta */,
+				4ECB5C842232260B008D76EA /* LolayFundamentaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ECB5C7A2232260B008D76EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECB5C832232260B008D76EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		121B74F5A8908C1711F7EC17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LolayFundamenta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4FFD08237C78A1B9B5079A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LolayFundamentaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ECB5C782232260B008D76EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6479812261BB8900F63485 /* UIImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECB5C812232260B008D76EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECB5C8B2232260B008D76EA /* LolayFundamentaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ECB5C882232260B008D76EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ECB5C7B2232260B008D76EA /* LolayFundamenta */;
+			targetProxy = 4ECB5C872232260B008D76EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4ECB5C8E2232260B008D76EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4ECB5C8F2232260B008D76EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4ECB5C912232260B008D76EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D0D96A81EC795FF73F2B908 /* Pods-LolayFundamenta.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4KQ6DV2XX8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LolayFundamenta/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.lolay.LolayFundamenta;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ECB5C922232260B008D76EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79AAB1A4238A511A534E0E57 /* Pods-LolayFundamenta.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4KQ6DV2XX8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LolayFundamenta/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.lolay.LolayFundamenta;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4ECB5C942232260B008D76EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37CA387130323814E5B86E48 /* Pods-LolayFundamentaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KQ6DV2XX8;
+				INFOPLIST_FILE = LolayFundamentaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.lolay.LolayFundamentaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ECB5C952232260B008D76EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE59B4A98D18D65B58CA1BA /* Pods-LolayFundamentaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KQ6DV2XX8;
+				INFOPLIST_FILE = LolayFundamentaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.lolay.LolayFundamentaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ECB5C762232260B008D76EA /* Build configuration list for PBXProject "LolayFundamenta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECB5C8E2232260B008D76EA /* Debug */,
+				4ECB5C8F2232260B008D76EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ECB5C902232260B008D76EA /* Build configuration list for PBXNativeTarget "LolayFundamenta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECB5C912232260B008D76EA /* Debug */,
+				4ECB5C922232260B008D76EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ECB5C932232260B008D76EA /* Build configuration list for PBXNativeTarget "LolayFundamentaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECB5C942232260B008D76EA /* Debug */,
+				4ECB5C952232260B008D76EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ECB5C732232260B008D76EA /* Project object */;
+}

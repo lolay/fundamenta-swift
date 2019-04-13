@@ -1,0 +1,11 @@
+os: osx
+osx_image: xcode10.2
+branches:
+  only:
+    - master
+language: swift
+xcode_workspace: LolayFundamenta.xcworkspace
+xcode_scheme: LolayFundamenta
+xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone X
+xcode_sdk: iphonesimulator12.2
+
