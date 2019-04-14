@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		3480E5B43607FA5F4142BF69 /* libPods-LolayFundamenta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57ECADD87E9C7C10708B06E8 /* libPods-LolayFundamenta.a */; };
 		4733CFCF6D287BC10F0A8902 /* libPods-LolayFundamentaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1259AAAF5266EF60FE72DE53 /* libPods-LolayFundamentaTests.a */; };
-		4E6479812261BB8900F63485 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6479802261BB8900F63485 /* UIImage.swift */; };
+		4E6479B52263A52800F63485 /* String+LolayFundamenta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6479B42263A52800F63485 /* String+LolayFundamenta.swift */; };
+		4E6479B72263A59A00F63485 /* DispatchQueue+LolayFundamenta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6479B62263A59A00F63485 /* DispatchQueue+LolayFundamenta.swift */; };
+		4E6479BB2263A9C700F63485 /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6479BA2263A9C700F63485 /* StringTests.swift */; };
+		4E6479BD2263AC1900F63485 /* DispatchQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6479BC2263AC1900F63485 /* DispatchQueueTests.swift */; };
 		4ECB5C862232260B008D76EA /* LolayFundamenta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECB5C7C2232260B008D76EA /* LolayFundamenta.framework */; };
-		4ECB5C8B2232260B008D76EA /* LolayFundamentaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB5C8A2232260B008D76EA /* LolayFundamentaTests.swift */; };
 		4ECB5C8D2232260B008D76EA /* LolayFundamenta.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECB5C7F2232260B008D76EA /* LolayFundamenta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -29,12 +31,16 @@
 		1259AAAF5266EF60FE72DE53 /* libPods-LolayFundamentaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LolayFundamentaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CA387130323814E5B86E48 /* Pods-LolayFundamentaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LolayFundamentaTests.debug.xcconfig"; path = "Target Support Files/Pods-LolayFundamentaTests/Pods-LolayFundamentaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D0D96A81EC795FF73F2B908 /* Pods-LolayFundamenta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LolayFundamenta.debug.xcconfig"; path = "Target Support Files/Pods-LolayFundamenta/Pods-LolayFundamenta.debug.xcconfig"; sourceTree = "<group>"; };
-		4E6479802261BB8900F63485 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		4E6479B022625ACB00F63485 /* LolayFundamenta.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LolayFundamenta.podspec; sourceTree = "<group>"; };
+		4E6479B222625ADB00F63485 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4E6479B42263A52800F63485 /* String+LolayFundamenta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+LolayFundamenta.swift"; sourceTree = "<group>"; };
+		4E6479B62263A59A00F63485 /* DispatchQueue+LolayFundamenta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+LolayFundamenta.swift"; sourceTree = "<group>"; };
+		4E6479BA2263A9C700F63485 /* StringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
+		4E6479BC2263AC1900F63485 /* DispatchQueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueTests.swift; sourceTree = "<group>"; };
 		4ECB5C7C2232260B008D76EA /* LolayFundamenta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LolayFundamenta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ECB5C7F2232260B008D76EA /* LolayFundamenta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LolayFundamenta.h; sourceTree = "<group>"; };
 		4ECB5C802232260B008D76EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ECB5C852232260B008D76EA /* LolayFundamentaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LolayFundamentaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4ECB5C8A2232260B008D76EA /* LolayFundamentaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LolayFundamentaTests.swift; sourceTree = "<group>"; };
 		4ECB5C8C2232260B008D76EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57ECADD87E9C7C10708B06E8 /* libPods-LolayFundamenta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LolayFundamenta.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EE59B4A98D18D65B58CA1BA /* Pods-LolayFundamentaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LolayFundamentaTests.release.xcconfig"; path = "Target Support Files/Pods-LolayFundamentaTests/Pods-LolayFundamentaTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +82,8 @@
 		4ECB5C722232260B008D76EA = {
 			isa = PBXGroup;
 			children = (
+				4E6479B222625ADB00F63485 /* README.md */,
+				4E6479B022625ACB00F63485 /* LolayFundamenta.podspec */,
 				4ECB5C7E2232260B008D76EA /* LolayFundamenta */,
 				4ECB5C892232260B008D76EA /* LolayFundamentaTests */,
 				4ECB5C7D2232260B008D76EA /* Products */,
@@ -98,7 +106,8 @@
 			children = (
 				4ECB5C7F2232260B008D76EA /* LolayFundamenta.h */,
 				4ECB5C802232260B008D76EA /* Info.plist */,
-				4E6479802261BB8900F63485 /* UIImage.swift */,
+				4E6479B42263A52800F63485 /* String+LolayFundamenta.swift */,
+				4E6479B62263A59A00F63485 /* DispatchQueue+LolayFundamenta.swift */,
 			);
 			path = LolayFundamenta;
 			sourceTree = "<group>";
@@ -106,8 +115,9 @@
 		4ECB5C892232260B008D76EA /* LolayFundamentaTests */ = {
 			isa = PBXGroup;
 			children = (
-				4ECB5C8A2232260B008D76EA /* LolayFundamentaTests.swift */,
 				4ECB5C8C2232260B008D76EA /* Info.plist */,
+				4E6479BA2263A9C700F63485 /* StringTests.swift */,
+				4E6479BC2263AC1900F63485 /* DispatchQueueTests.swift */,
 			);
 			path = LolayFundamentaTests;
 			sourceTree = "<group>";
@@ -279,7 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E6479812261BB8900F63485 /* UIImage.swift in Sources */,
+				4E6479B72263A59A00F63485 /* DispatchQueue+LolayFundamenta.swift in Sources */,
+				4E6479B52263A52800F63485 /* String+LolayFundamenta.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +298,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ECB5C8B2232260B008D76EA /* LolayFundamentaTests.swift in Sources */,
+				4E6479BB2263A9C700F63485 /* StringTests.swift in Sources */,
+				4E6479BD2263AC1900F63485 /* DispatchQueueTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
