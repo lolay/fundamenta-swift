@@ -15,6 +15,8 @@
 		4E6479BD2263AC1900F63485 /* DispatchQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6479BC2263AC1900F63485 /* DispatchQueueTests.swift */; };
 		4ECB5C862232260B008D76EA /* LolayFundamenta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECB5C7C2232260B008D76EA /* LolayFundamenta.framework */; };
 		4ECB5C8D2232260B008D76EA /* LolayFundamenta.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECB5C7F2232260B008D76EA /* LolayFundamenta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EFC6D89226422D8006430C4 /* OSLog+LolayFundamenta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC6D88226422D8006430C4 /* OSLog+LolayFundamenta.swift */; };
+		4EFC6D8B22642662006430C4 /* OSLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFC6D8A22642662006430C4 /* OSLogTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		4ECB5C802232260B008D76EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ECB5C852232260B008D76EA /* LolayFundamentaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LolayFundamentaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ECB5C8C2232260B008D76EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EFC6D88226422D8006430C4 /* OSLog+LolayFundamenta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OSLog+LolayFundamenta.swift"; sourceTree = "<group>"; };
+		4EFC6D8A22642662006430C4 /* OSLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSLogTests.swift; sourceTree = "<group>"; };
 		57ECADD87E9C7C10708B06E8 /* libPods-LolayFundamenta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LolayFundamenta.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EE59B4A98D18D65B58CA1BA /* Pods-LolayFundamentaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LolayFundamentaTests.release.xcconfig"; path = "Target Support Files/Pods-LolayFundamentaTests/Pods-LolayFundamentaTests.release.xcconfig"; sourceTree = "<group>"; };
 		79AAB1A4238A511A534E0E57 /* Pods-LolayFundamenta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LolayFundamenta.release.xcconfig"; path = "Target Support Files/Pods-LolayFundamenta/Pods-LolayFundamenta.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,6 +112,7 @@
 				4ECB5C802232260B008D76EA /* Info.plist */,
 				4E6479B42263A52800F63485 /* String+LolayFundamenta.swift */,
 				4E6479B62263A59A00F63485 /* DispatchQueue+LolayFundamenta.swift */,
+				4EFC6D88226422D8006430C4 /* OSLog+LolayFundamenta.swift */,
 			);
 			path = LolayFundamenta;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 				4ECB5C8C2232260B008D76EA /* Info.plist */,
 				4E6479BA2263A9C700F63485 /* StringTests.swift */,
 				4E6479BC2263AC1900F63485 /* DispatchQueueTests.swift */,
+				4EFC6D8A22642662006430C4 /* OSLogTests.swift */,
 			);
 			path = LolayFundamentaTests;
 			sourceTree = "<group>";
@@ -291,6 +297,7 @@
 			files = (
 				4E6479B72263A59A00F63485 /* DispatchQueue+LolayFundamenta.swift in Sources */,
 				4E6479B52263A52800F63485 /* String+LolayFundamenta.swift in Sources */,
+				4EFC6D89226422D8006430C4 /* OSLog+LolayFundamenta.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E6479BB2263A9C700F63485 /* StringTests.swift in Sources */,
+				4EFC6D8B22642662006430C4 /* OSLogTests.swift in Sources */,
 				4E6479BD2263AC1900F63485 /* DispatchQueueTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
