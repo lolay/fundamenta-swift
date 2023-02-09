@@ -33,11 +33,11 @@ class StringTests: XCTestCase {
     }
     
     func testIsEmail() {
-        XCTAssertTrue("build@lolay.org".isEmail())
-        XCTAssertTrue("build+xctest@lolay.org".isEmail())
-        XCTAssertTrue("build@build.lolay.org".isEmail())
-        XCTAssertFalse("build".isEmail())
-        XCTAssertFalse("build@".isEmail())
-        XCTAssertFalse("build@lolay".isEmail())
+        XCTAssertTrue("build@lolay.org".isEmail)
+        XCTAssertTrue("build+xctest@lolay.org".isEmail)
+        XCTAssertTrue("build@build.lolay.org".isEmail)
+        XCTAssertFalse("build".isEmail)
+        XCTAssertFalse("build@".isEmail)
+        XCTAssertFalse("build@lolay".isEmail)
     }
 }
