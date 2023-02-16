@@ -15,7 +15,7 @@
 //
 import Foundation
 
-extension NotificationCenter {
+public extension NotificationCenter {
     /**
     Adds an observer with block for multiple notifications.
     - returns: Array of handles for removing observers.
